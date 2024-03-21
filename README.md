@@ -1,4 +1,5 @@
 # Landing Page com Tailwind CSS
+<img width="1504" alt="Captura de Tela 2024-03-21 às 11 45 26" src="https://github.com/EstherCecilia/landing--page-tailwind/assets/29818932/55d6b321-894b-418d-912c-30dd5398da7c">
 
 Este repositório contém uma landing page simples criada utilizando o Tailwind CSS. A landing page inclui um cabeçalho, uma seção de destaque, uma seção de recursos e um formulário de inscrição.
 

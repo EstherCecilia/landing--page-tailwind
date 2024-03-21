@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page com Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Cabeçalho -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto py-4 px-8">
+            <h1 class="text-3xl font-bold text-gray-800">Minha Landing Page</h1>
+        </div>
+    </header>
+
+    <!-- Seção de Destaque -->
+    <section class="py-16 bg-gray-200">
+        <div class="container mx-auto px-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-8">Destaque do Produto</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at eros vel felis vestibulum convallis.</p>
+            <a href="#" class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-600">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Seção de Recursos -->
+    <section class="py-16">
+        <div class="container mx-auto px-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-8">Recursos do Produto</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Recurso 1</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at eros vel felis vestibulum convallis.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Recurso 2</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at eros vel felis vestibulum convallis.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Recurso 3</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at eros vel felis vestibulum convallis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Inscrição -->
+    <section class="py-16 bg-gray-200">
+        <div class="container mx-auto px-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-8">Inscreva-se para Receber Novidades</h2>
+            <form class="max-w-sm mx-auto">
+                <div class="flex items-center border-b border-b-2 border-blue-500 py-2">
+                    <input type="email" placeholder="Seu e-mail" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none">
+                    <button type="submit" class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded">Inscrever-se</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-4">
+        <div class="container mx-auto">
+            <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
